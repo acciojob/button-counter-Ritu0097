@@ -2,7 +2,7 @@
 import React from "react";
 import './../styles/App.css';
 
-const CounterComponent = () => {
+const App = () => {
   const [count, setCount] = useState(0);
 
   const handleClick = () => {
@@ -12,7 +12,7 @@ const CounterComponent = () => {
   return (
     <div>
       <button onClick={handleClick}>Click me</button>
-      <p>Button clicked {count} times.</p>
+      <p>Button clicked {count} times</p>
     </div>
   );
 };
